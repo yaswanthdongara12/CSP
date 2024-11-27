@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Farming Using Jeevamrutham</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .reminder-btn {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            float:left;
+        }
+        .reminder-btn:hover {
+            background-color: #d32f2f;
+        }
+.alert-btn {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            float:right;
+        }
+        .alert-btn:hover {
+            background-color: #d32f2f;
+        }
+
+       #benefits {
+    display: flex;
+    align-items: center; /* Center the text and image vertically */
+    justify-content: space-between; /* Add space between the text and image */
+}
+
+#benefits .text {
+    flex: 1; /* Allow text to take up remaining space */
+}
+
+#benefits .benefit {
+    max-width: 40%; /* Control image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Add some space between the text and image */
+}
+#conclusion {
+    display: flex;
+    align-items: center; /* Center the text and image vertically */
+    justify-content: space-between; /* Space between the text and image */
+}
+
+#conclusion .text {
+    flex: 1; /* Allow text to take up the remaining space */
+}
+
+#conclusion .conclusion {
+    max-width: 40%; /* Control the image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Add space between text and image */
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Organic Farming Using Jeevamrutham</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#method">Method</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Jeevamrutham is a traditional, natural liquid fertilizer used in organic farming, primarily in India. It is made from a mixture of cow dung, cow urine, jaggery, and sometimes pulse flour or buttermilk, fermented together to create a nutrient-rich solution. Jeevamrutham works by promoting microbial activity in the soil, enhancing its fertility and structure, and improving plant health. It is an eco-friendly alternative to chemical fertilizers, supporting sustainable agricultural practices by nourishing the soil and plants naturally. Widely recognized for its ability to increase soil organic matter, water retention, and crop yields, Jeevamrutham plays a crucial role in organic farming systems.</p>
+    </section>
+
+    <section id="benefits">
+    <div class="text">
+        <h2>Benefits of Using Jeevamrutham</h2>
+        <ul>
+            <li>Improves Soil Fertility</li>
+            <li>Boosts Plant Growth</li>
+            <li>Enhances Soil Structure</li>
+            <li>Reduces Dependency on Chemical Fertilizers</li>
+	<li>Improves Disease Resistance</li>
+	<li>Promotes Soil Biodiversity</li>
+	<li>Cost-Effective</li>
+
+
+        </ul>
+    </div>
+    <img src="1.jpg" class="benefit" alt="Healthy crops in an organic farm">
+</section>
+
+
+    <section id="method">
+        <h2>Method of Preparation</h2>
+        <p>To prepare Jeevamrutham, mix 1 kg of fresh cow dung with 10 liters of water in a clean container, creating a slurry. Add 1 liter of cow urine and 100 grams of jaggery to the mixture. Optionally, add 1-2 tablespoons of pulse flour and a small cup of buttermilk for enhanced microbial growth. Stir well and cover the container, allowing it to ferment for 2-3 days (up to a week). After fermentation, dilute the mixture with water (1:10 to 1:15 ratio) and apply it to plants or soil. Store in a cool place and use within 15 days.....</p>
+    </section>
+
+   <section id="conclusion">
+    <div class="text">
+        <h2>Conclusion</h2>
+        <p>In conclusion, organic farming using Jeevamrutham offers a sustainable and eco-friendly approach to agriculture. By utilizing natural ingredients like cow dung, cow urine, and jaggery, Jeevamrutham enhances soil fertility, promotes healthy plant growth, and supports biodiversity. It reduces dependency on chemical fertilizers, lowers environmental pollution, and fosters long-term soil health. The application of Jeevamrutham not only improves crop yields but also strengthens plant resistance to diseases, making it an effective and cost-efficient alternative for organic farmers. Overall, Jeevamrutham plays a vital role in promoting sustainable, chemical-free farming practices that benefit both the environment and the farming community.
+
+
+
+</p>
+    </div>
+    <img src="2.jpg" class="conclusion" alt="Farmers celebrating a successful organic harvest">
+</section>
+
+
+    <footer>
+        <p>&copy; Organic Farming Using Jeevamrutham</p>
+        <button class="reminder-btn" onclick="setReminder()">Set Reminder</button>
+        
+        <button class="alert-btn" onclick="setAlert()">Alert</button>
+
+    </footer>
+
+    <script>
+        function setReminder() {
+            alert("Reminder has been set! Don't forget to use Jeevamrutham for your farming needs.");
+        }
+    function setAlert() {
+            alert("Alert is Sent");
+        }
+
+    </script>
+
+</body>
+</html>
